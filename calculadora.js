@@ -62,3 +62,5 @@ function btnPunto() {
         punto = false;
     }
 }
+
+console.log("Calculadora cargada");
