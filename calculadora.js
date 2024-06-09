@@ -6,9 +6,6 @@ var op = true;
 var sign = "";
 var display = "";
 
-
-console.log("Calculadora");
-
 function clearDisplay() {
     document.getElementById('display').value = 0;
     op1 = op2 = res = 0.0;
@@ -65,3 +62,5 @@ function btnPunto() {
         punto = false;
     }
 }
+
+console.log("Calculadora cargada");
